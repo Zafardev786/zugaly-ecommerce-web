@@ -1,0 +1,86 @@
+  /* List of data including transection , loans , investor etc */
+
+
+
+
+
+  /* Add media query for smaller screens */
+  @media (max-width: 768px) {
+    .data-table-container {
+      overflow-x: auto;
+    }
+
+    .data-table {
+      min-width: 600px;
+      /* Ensure minimum width for horizontal scroll */
+    }
+
+    .delete-btn {
+      margin: 10px auto;
+    }
+
+    .add-data-container {
+      width: 100%;
+    }
+
+    .add-data-form {
+      padding: 20px;
+      border-radius: 5px;
+      width: 100%;
+      border: 1px solid #ddd;
+    }
+
+    .main-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .header-right {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .search-box {
+      width: calc(100% - 60px);
+      /* Adjust the width according to the button size */
+      margin-right: 10px;
+    }
+    .form-step {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .step-indicator {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+  }
+
+  .step {
+      width: auto;
+      margin-bottom: 10px;
+  }
+
+  .overview-item {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .overview-value {
+      text-align: left;
+      margin-top: 5px;
+  }
+
+  .button-container {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+
+  .profile-picture img {
+      width: 120px;
+      height: 120px;
+  }
+  }

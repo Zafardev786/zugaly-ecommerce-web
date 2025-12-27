@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://edooqate.in
+
+# Sitemaps
+Sitemap: https://edooqate.in/sitemap.xml
